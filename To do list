@@ -41,10 +41,6 @@ def openTaskFile():
         file=open("tasklist.txt","w")
         file.close()
     
-
-
-
-
 Label_result=Label(window,width=30,height=1,text="ALL TASK",font=("arial",20,"bold"),bg="#C2F588")
 Label_result.pack()
 
